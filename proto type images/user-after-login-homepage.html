@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .grid-cont {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 100px 50px 900px 400px;
+
+        }
+
+        .grid-item {
+            /* border: 2px solid darkblue; */
+
+
+        }
+
+        .navigation {
+            grid-column: 1 / 5;
+            background-color: #4484CC;
+        }
+
+        .navigation a {
+            padding: 30px;
+            color: whitesmoke;
+        }
+
+        .search-bar {
+            grid-column: 1 / 5;
+            background-color: #F29F4E;
+        }
+
+        .search-bar input {
+            width: 95%;
+            height: 35px;
+            margin-top: 5px;
+            font-size: 18px;
+            padding: 5px;
+        }
+
+        .search-bar button {
+            padding: 5px;
+        }
+
+
+
+        .planner-services {
+            grid-column: 2 / 5;
+            background-color: #D9D9D9;
+
+        }
+
+        .best-planner {
+            grid-column: 1 / 5;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .best-planner .profile {
+            width: 130px;
+            height: 150px;
+            background-color: #4484CC;
+            margin: 10px;
+        }
+
+        .log-out {
+            text-align: right;
+            margin-bottom: 5px;
+
+        }
+
+        .log-out button{
+            padding: 10px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="log-out grid-item"><button>Log out</button></div>
+    <div class="layout grid-cont">
+        
+        <div class="navigation grid-item">
+            <a href="">Nav Link 1 </a>
+            <a href="">Link 2 </a>
+            <a href="">Link 3 </a>
+            <a href="">Link 4 </a>
+            <a href="">Link 5 </a>
+            <a href="">Link 6</a>
+        </div>
+        <div class="search-bar grid-item">
+            <input type="text" placeholder="Write Here"> <button>Search</button>
+        </div>
+        <div class="planner-services grid-item">
+            planner-services
+            <div style="background-color: white; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span> <br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+            <div style="background-color: #ecf0f1; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span> <br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+            <div style="background-color: white; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span><br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+            <div style="background-color: #ecf0f1; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span><br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+            <div style="background-color: white; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span><br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+            <div style="background-color: #ecf0f1; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span><br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+            <div style="background-color: white; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span><br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+            <div style="background-color: #ecf0f1; height: 100px; width: 100%;">
+                <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
+                <span>Service Type: </span> <span>wedding, Birthday</span><br>
+                <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
+            </div>
+        </div>
+        <div class="best-planner grid-item">
+            <!-- <h4 style="display: block;">best planner profile</h4>best planner profile -->
+            <div class="profile">profile 1</div>
+            <div class="profile">profile 2</div>
+            <div class="profile">profile 3</div>
+            <div class="profile">profile 4</div>
+            <div class="profile">profile 5</div>
+            <div class="profile">profile 6</div>
+            <div class="profile">profile 7</div>
+            <div class="profile">profile 8</div>
+            <div class="profile">profile 9</div>
+            <div class="profile">profile 10</div>
+            <div class="profile">profile 11</div>
+            <div class="profile">profile 12</div>
+            <div class="profile">profile 13</div>
+            <div class="profile">profile 14</div>
+            <div class="profile">profile 15</div>
+            <div class="profile">profile 16</div>
+            <div class="profile">profile 17</div>
+            <div class="profile">profile 18</div>
+            <div class="profile">profile 19</div>
+            <div class="profile">profile 20</div>
+        </div>
+    </div>
+    <footer></footer>
+
+    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+
+    <script>
+        var t = "";
+        for (let index = 15; index < 21; index++) {
+            t = t + '<div class="profile">profile ' + index + '</div>';
+
+        }
+        document.querySelector("textarea").innerHTML = t;
+
+    </script>
+</body>
+
+</html>
