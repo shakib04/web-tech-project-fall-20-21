@@ -5,7 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: gainsboro;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+    </style>
     <style>
         .grid-cont {
             display: grid;
@@ -76,7 +99,7 @@
 
         }
 
-        .log-out button{
+        .log-out button {
             padding: 10px;
             font-size: 20px;
         }
@@ -88,7 +111,7 @@
 
     <div class="log-out grid-item"><button>Log out</button></div>
     <div class="layout grid-cont">
-        
+
         <div class="navigation grid-item">
             <a href="">Nav Link 1 </a>
             <a href="">Link 2 </a>
