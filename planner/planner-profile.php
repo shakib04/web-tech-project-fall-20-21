@@ -1,0 +1,1 @@
+same as liker user profile, they can edit their profile

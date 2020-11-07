@@ -14,9 +14,10 @@
 
 <body>
     <header>
-        <span class="logo">ePlanner. <span style="color: black;">com</span></span>
+        <a href="/">
+            <span class="logo">ePlanner. <span style="color: black;">com</span></span>
+        </a>
 
-        </section>
         <span class="login-reg">
             <a href="" class="login">Login</a>
             <a href="" class="reg">Sign up</a>
@@ -43,6 +44,8 @@
             </li>
         </ul>
     </nav>
+
+    
 </body>
 
 </html>

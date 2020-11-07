@@ -5,30 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
 
-    <style>
-        a {
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: gainsboro;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        button:hover {
-            cursor: pointer;
-        }
-
-    </style>
     <style>
         .grid-cont {
             display: grid;
@@ -103,6 +81,19 @@
             padding: 10px;
             font-size: 20px;
         }
+        .pagination {
+            background-color: #D9D9D9;
+        }
+
+        .pagination a{
+            display: inline-block;
+            padding: 7px;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover{
+            background-color: darkblue;
+        }
 
     </style>
 </head>
@@ -124,7 +115,7 @@
             <input type="text" placeholder="Write Here"> <button>Search</button>
         </div>
         <div class="planner-services grid-item">
-            planner-services
+            <h3>Suggested Planner Services</h3>
             <div style="background-color: white; height: 100px; width: 100%;">
                 <span>Planner Organization Name: </span> <span>ABC Planner </span> <br>
                 <span>Service Type: </span> <span>wedding, Birthday</span> <br>
@@ -165,7 +156,17 @@
                 <span>Service Type: </span> <span>wedding, Birthday</span><br>
                 <span>Our Service Area: </span> <span>Dhaka, Chittagong</span>
             </div>
+
+            <div class="pagination">
+                <h5>Pages</h5>
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+            </div>
+
         </div>
+
         <div class="best-planner grid-item">
             <!-- <h4 style="display: block;">best planner profile</h4>best planner profile -->
             <div class="profile">profile 1</div>
